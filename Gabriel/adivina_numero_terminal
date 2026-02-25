@@ -1,3 +1,7 @@
+
+#!/bin/bash
+
+# Genera un número aleatorio entre 1 y 100
 numero_secreto=$(( $RANDOM % 100 + 1 ))
 intentos=0
 
@@ -16,3 +20,4 @@ while true; do
     echo "Demasiado alto. Intenta de nuevo."
   fi
 done
+
