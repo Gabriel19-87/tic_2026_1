@@ -20,7 +20,8 @@ done
 
 # figlet y toilet:
 ## Instalar si no están instalados
-sudo apt install figlet toilet
+sudo apt update
+sudo apt install figlet toilet -y
 
 ## Generar texto artístico
 figlet "Ubuntu"
